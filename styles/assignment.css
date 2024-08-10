@@ -7,3 +7,43 @@
   font-weight: 400;
   font-style: normal;
 }
+.shared-display{
+    display: flex;
+}
+.nav-items{
+    list-style: none;
+    margin-right: 3rem;
+}
+.nav-link{
+    text-decoration: none;
+    font-size: 18px;
+}
+.size{
+    font-size: 1rem;
+    font-weight: 100;
+}
+.text-white{
+    color: #FFFFFF;
+}
+.orange{
+    background-color: #E6533C;
+}
+.brand{
+    color: #E6533C;
+}
+.navbar{
+    justify-content: space-between;
+    align-items: center;
+}
+.bg{
+    background-color: rgba(17, 17, 17, 1);
+    
+}
+.bg-left{
+    font-weight: bolder;
+    font-size: 35px;
+}
+.navbar, .banner{
+    max-width: 1440px;
+    margin: 0 auto;
+}
