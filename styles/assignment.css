@@ -1,11 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
 
 .inter{
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
+}
+.dancing-script{
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+#dif-shape{
+    overflow-x: visible;
+    overflow-y: visible;
+}
+.shared-display2{
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 200px;
+    padding-left: 200px;
 }
 .shared-display{
     display: flex;
@@ -34,10 +51,18 @@
 .navbar{
     justify-content: space-between;
     align-items: center;
+    padding-right: 200px;
+    padding-left: 200px;
 }
 .bg{
     background-color: rgba(17, 17, 17, 1);
     
+}
+.bg-deepgrey{
+    background-color: #222222;
+    margin-left: 200px;
+    margin-right: 200px;
+    border-radius: 18px;
 }
 .bg-left{
     font-weight: bolder;
@@ -46,4 +71,86 @@
 .navbar, .banner{
     max-width: 1440px;
     margin: 0 auto;
+}
+.banner-title{
+    font-size: 78px;
+}
+.button{
+    margin-top: 10px;
+}
+.btn{
+    padding: 8px 14px 8px 14px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 42px;
+    margin-right: 15px;
+}
+.primary{
+    background-color: #E6533C;
+    color: #FFFFFF;
+    
+}
+.secondary{
+    background-color: black;
+    color: #FFFFFF;
+}
+.images{
+    position: relative;
+}
+.images img{
+    max-width: 400px;
+}
+.info-box{
+    position: absolute;
+    background-color: rgba(48, 48, 48, 0.54);
+    padding: 10px;
+    color: #FFFFFF;
+    border-radius: 5px;
+    
+}
+.top{
+    margin-top: -460px;
+    margin-left: 240px;
+    
+
+}
+.bottom{
+    margin-top: -180px;
+    margin-left: -150px
+}
+.habit-items{
+    text-align: center;
+    padding: 100px;
+    
+}
+
+.round-shape img{
+    border-radius: 50%;
+    margin-bottom: 5px;
+}
+.habit-new{
+    font-size: 14px;
+    font-weight: 100;
+}
+.run-detail{
+    justify-content: space-between;
+    align-items: center;
+}
+.run img{
+    height: 300px;
+    width: 300px;
+    margin: 40px 70px 33px;
+    padding-left: 150px;
+    border-radius: 18px;
+    object-fit: none;
+    object-position: 67% 30%;
+
+}
+.run-head{
+    font-size: 48px;
+}
+.run-left{
+    padding-left: 60px;
+    padding-top: 41px;
+    
 }
