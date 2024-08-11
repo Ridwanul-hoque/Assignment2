@@ -154,3 +154,10 @@
     padding-top: 41px;
     
 }
+.grid{
+    display: flex;
+}
+.grid-item img{
+    height: 100%;
+    width: 100%;
+}
