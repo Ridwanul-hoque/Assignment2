@@ -29,11 +29,21 @@
 }
 .nav-items{
     list-style: none;
-    margin-right: 3rem;
+    padding-right: 30px;
+    padding-bottom: 1px;
 }
 .nav-link{
     text-decoration: none;
-    font-size: 18px;
+    font-size: 16px;
+    font-weight: lighter;
+}
+.nav-edit{
+    border-radius: 10px; 
+    border: 1px solid #FFFFFF;   
+}
+.nav-links{
+    margin: 0;
+    padding: 0;
 }
 .size{
     font-size: 1rem;
@@ -44,6 +54,8 @@
 }
 .orange{
     background-color: #E6533C;
+    border-radius: 10px;
+    padding: 6px 20px 6px 20px;
 }
 .brand{
     color: #E6533C;
@@ -79,11 +91,11 @@
     margin-top: 10px;
 }
 .btn{
-    padding: 8px 14px 8px 14px;
+    padding: 8px 50px 8px 50px;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 16px;
     border-radius: 42px;
-    margin-right: 15px;
+    
 }
 .primary{
     background-color: #E6533C;
@@ -161,6 +173,10 @@
 }
 .row{
     display: flex;
+}
+.display-chal{
+    display: flex;
+    background-color: #222222;
 }
 .grid-para{
     margin-top: -100px;
@@ -260,4 +276,53 @@ td{
     font-size: 14px;
     color: #FFFFFF;
     padding: 18px;
+}
+.table-right{
+    color: #FFFFFF;
+
+}
+.form{
+    color: #FFFFFF;
+}
+.form input{
+    background-color: #222222;
+
+}
+.form select{
+    background-color: #222222;
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 12px;
+
+}
+.form-select{
+    padding: 18px 185px 18px 5px ;
+    margin-top: 10px;
+    margin-left: 5px;
+    border-radius: 8px;
+}
+.form-select-2{
+    padding: 18px 368px 18px 5px ;
+    margin-top: 10px;
+    border-radius: 8px;
+
+}
+.form-input input{
+    padding: 18px 85px 18px 5px;
+    border-radius: 8px;
+    margin-right: 5px;
+}
+.form-input-2 input{
+    padding: 18px 85px 18px 5px;
+    border-radius: 8px;
+    
+}
+.form-head{
+    font-size: 28px;
+}
+.btn-cal{
+    color: #FFFFFF;
+    background-color: #E6533C;
+    margin-top: 20px;
+    border-radius: 42px;
+    padding: 12px 55px 12px 55px;
 }
