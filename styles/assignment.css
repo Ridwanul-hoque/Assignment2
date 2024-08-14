@@ -624,4 +624,13 @@ td{
     .review-item{
         flex-direction: column;
     }
+    .grid{
+        padding: 5px 5px 5px 5px;
+        margin-left: 10px;
+        margin-right: 10px;
+        
+    }
+    .grid-para{
+        margin-top: -50px;
+    }
 }
