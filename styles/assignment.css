@@ -227,14 +227,14 @@
     background-color: #222222;
     
 }
-.grid-item-1 img{
+/* .grid-item-1 img{
     height: 100%%;
     width: 60%;
 }
 .grid-item-2 img{
     width: 150%;
-    margin-right: 100px;
-}
+    margin-right: 100px; */
+
 .grid-para{
     margin-top: -100px;
     font-weight: bold;
@@ -258,7 +258,7 @@
 }
 .overlay-2{
     background-color: rgba(255, 0, 0, 0.3);
-    padding-right: 150px;
+    
 }
 .overlay-3{
     background-color: rgba(0, 0, 0, 0.5);
