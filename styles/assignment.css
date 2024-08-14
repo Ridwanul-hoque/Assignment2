@@ -223,6 +223,10 @@
     display: flex;
     background-color: #222222;
 }
+.display-chal-2{
+    background-color: #222222;
+    
+}
 .grid-item-1 img{
     height: 100%%;
     width: 60%;
@@ -319,6 +323,13 @@
     color: #FFFFFF;
 
 }
+.bg-2{
+ 
+    padding-top: 30px;
+}
+.footer{
+    padding-bottom: 10px;
+}
 .footer-left{
     margin-left: 150px;
 }
@@ -375,7 +386,7 @@ table{
     border-collapse: collapse;
     margin-left: 160px;
     margin-right: 200px;
-    margin-bottom: 10px;
+    margin-bottom: 50px;
     color: #FFFFFF;
 }
 td{
@@ -433,4 +444,152 @@ td{
     margin-bottom: 20px;
     border-radius: 42px;
     padding: 12px 55px 12px 55px;
+}
+.menu{
+    display: none;
+}
+@media screen and (max-width: 576px){
+    .nav-items{
+        display: none;
+    }
+    .nav-edit{
+        border: none;
+    }
+    .menu{
+        display: block;
+        border-radius: none;
+        margin-left: 220px;
+
+        
+    }
+    .media-shared{
+        flex-direction: column;
+    }
+    .navbar{
+        margin-left: -120px;
+    }
+    .banner-item{
+        margin-left: -120px
+    }
+    .banner-title, .brand{
+        font-size: 30px;
+    }
+    .size{
+        font-size: 10px;
+        padding-right: 120px;
+    }
+    .button{
+        display: flex;
+        
+    }
+    .btn{
+        padding: 10px 50px 10px 50px;
+    }
+    .primary{
+        margin-right: 5px;
+    }
+    .primary,.secondary{
+        font-size: 10px;
+    }
+    .images img{
+        height: 140%;
+        width: 140%;
+        margin-left: -90px;
+    }
+    .info-box, .habit-item, .form-head{
+        font-size: 20px;
+    }
+    .overlay-3, .overlay-6{
+        display: none;
+    }
+    .grid{
+        margin-left: -120px;
+    }
+    .text-new, .habit-new{
+        font-size: 8px;
+    }
+    .habit-para{
+        margin-right: 50px;
+        margin-left: 50px;
+    }
+    .top{
+        margin-top: -510px;
+        margin-left: 100px;
+        padding: 20px 20px 20px 20px;
+    }
+
+    .bottom{
+        margin-top: -320px;
+        margin-left: -80px;
+        padding: 10px 20px 10px 20px;
+    }
+    .bg-deepgrey{
+        margin-left: 20px;
+        margin-right: 20px;
+
+    }
+    .run-head{
+        font-size: 32px;
+        margin-right: 20px;
+        margin-bottom: 10px;
+    }
+    .run-btn{
+        margin-left: 50px;
+    }
+    .run{
+        padding: 5px 60px 20px 5px;
+    }
+    .table-head{
+        margin: 10px 0px 10px 30px;
+    }
+    table{
+        margin-left: 20px ;
+    }
+    td{
+        border: 1px solid #FFFFFF;
+        font-size: 12px;
+        color: #FFFFFF;
+        padding: 50px;
+    }
+    .form{
+        margin-left: 10px;
+    }
+    .form-input input{
+        padding: 20px 10px 20px 8px;
+    }
+    .form-input-2 input{
+        padding: 20px 10px 20px 8px
+    }
+    .form-select{
+        padding: 20px 110px 20px 8px
+    }
+    .form-select-2{
+        padding: 20px 220px 20px 8px
+    }
+    .form-2{
+        margin-left: 10px;
+    }
+    .team-head{
+        text-align: center;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .team-back{
+        padding-left: 10px;
+    }
+    .team{
+        padding-left: 20px;
+        padding-right: 20px
+    }
+    .footer{
+        margin-left: -120px;
+
+    }
+    .footer-detail-1, .footer-detail-2{
+        margin-left: 130px;
+    }
+    hr{
+        margin-left: 20px;
+        margin-right: 120px;
+    }
 }
