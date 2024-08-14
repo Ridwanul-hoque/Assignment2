@@ -448,6 +448,35 @@ td{
 .menu{
     display: none;
 }
+.review-item{
+    display: flex;
+}
+.review-head{
+    padding-top: 20px;
+    text-align: center;
+}
+.review-p{
+    font-size: 12px;
+    font-weight: 100;
+    text-align: left;
+}
+.review-h{
+    font-size: 20px;
+    text-align: left;
+}
+.review-detail{
+    margin: 10px 10px 10px 10px;
+    padding: 20px 20px 20px 20px;
+    border-radius: 10px;
+}
+.orange-2{
+    background-color: #E6533C;
+    margin-top: 10px;
+    padding-bottom: 20px;
+}
+.bg-new{
+    background-color:#222222;
+}
 @media screen and (max-width: 576px){
     .nav-items{
         display: none;
@@ -591,5 +620,8 @@ td{
     hr{
         margin-left: 20px;
         margin-right: 120px;
+    }
+    .review-item{
+        flex-direction: column;
     }
 }
