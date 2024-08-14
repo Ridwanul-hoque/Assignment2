@@ -21,8 +21,8 @@
 .shared-display2{
     justify-content: space-between;
     align-items: center;
-    padding-right: 200px;
-    padding-left: 200px;
+    /* padding-right: 150px; */
+    padding-left: 150px;
 }
 .shared-display{
     display: flex;
@@ -63,8 +63,8 @@
 .navbar{
     justify-content: space-between;
     align-items: center;
-    padding-right: 200px;
-    padding-left: 200px;
+    padding-right: 150px;
+    padding-left: 150px;
 }
 .bg{
     background-color: rgba(17, 17, 17, 1);
@@ -72,8 +72,8 @@
 }
 .bg-deepgrey{
     background-color: #222222;
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: 150px;
+    margin-right: 150px;
     border-radius: 18px;
 }
 .bg-left{
@@ -111,34 +111,68 @@
 }
 .images img{
     max-width: 400px;
+    margin-right: 150px;
 }
 .info-box{
     position: absolute;
     background-color: rgba(48, 48, 48, 0.54);
-    padding: 10px;
     color: #FFFFFF;
     border-radius: 5px;
     
 }
+.text-new{
+    font-size: 13px;
+    font-weight: 100;
+    display: inline-block;
+
+}
 .top{
     margin-top: -460px;
-    margin-left: 240px;
+    margin-left: 200px;
+    font-size: 30px;
+    padding: 10px 40px 10px 20px;
     
 
 }
 .bottom{
     margin-top: -180px;
-    margin-left: -150px
+    margin-left: -80px;
+    font-size: 30px;
+    padding: 0px 60px 0px 20px;
 }
-.habit-items{
+.button-circle{
+    background-color:#E6533C;
+    border: none;
+    color: #E6533C;
+    padding: 2px 5px 2px 5px;
     text-align: center;
-    padding: 100px;
-    
+    text-decoration: none;
+    display: inline-block;
+    margin: 15px 10px 15px 10px;
+  }
+.button5{
+    border-radius: 100%;
 }
 
+.habit-items{
+    text-align: center;
+    padding: 50px; 
+    margin-bottom: 20px;
+}
+.habit-item{
+    font-size: 30px;
+    font-weight: bold;
+}
+.habit-para{
+    margin-bottom: 50px;
+}
+.habit-change{
+    margin-left: 50px;
+    margin-right: 50px;
+}
 .round-shape img{
     border-radius: 50%;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 .habit-new{
     font-size: 14px;
@@ -151,8 +185,8 @@
 .run img{
     height: 300px;
     width: 300px;
-    margin: 40px 70px 33px;
-    padding-left: 150px;
+    /* margin: 40px 70px 33px; */
+    /* padding-left: 150px; */
     border-radius: 18px;
     object-fit: none;
     object-position: 67% 30%;
@@ -162,11 +196,22 @@
     font-size: 48px;
 }
 .run-left{
-    padding-left: 60px;
-    padding-top: 41px;
+    padding-left: 40px;
+    padding-bottom: 40px;
+    padding-right: 50px;
+    color: #FFFFFF;
     
 }
-
+.run-btn{
+    background-color:#E6533C;
+    color: #FFFFFF;
+    padding: 10px 60px 10px 60px;
+    border-radius: 40px;
+}
+.run{
+    padding: 40px 40px 40px 40px;
+    margin-left: 50px;
+}
 .row img{
     height: 100%;
     width: 100%;
@@ -178,17 +223,73 @@
     display: flex;
     background-color: #222222;
 }
+.grid-item-1 img{
+    height: 100%%;
+    width: 60%;
+}
+.grid-item-2 img{
+    width: 150%;
+    margin-right: 100px;
+}
 .grid-para{
     margin-top: -100px;
+    font-weight: bold;
+    font-size: 8px;
+    opacity: 1;
+}
+.grid-info{
+    margin-bottom: 30px;
 }
 .grid{
-    padding-left: 200px;
-    padding-right: 200px;
+    padding-left: 150px;
+    padding-right: 150px;
+    
+}
+.grid-head{
+    margin-top: 80px;
 }
 
+.overlay-1{
+    background-color: rgba(6, 255, 210, 0.5);
+}
+.overlay-2{
+    background-color: rgba(255, 0, 0, 0.3);
+    padding-right: 150px;
+}
+.overlay-3{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.overlay-4{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.overlay-5{
+    background-color: rgba(66, 255, 0, 0.3);
+}
+.overlay-6{
+    background-color: rgba(0, 71, 255, 0.3);
+}
+.overlay-1 img{
+    opacity: 0.5;
+}
+.overlay-2 img{
+    opacity: 0.5;
+}
+.overlay-3 img{
+    opacity: 0.5;
+}
+.overlay-4 img{
+    opacity: 0.5;
+}
+.overlay-5 img{
+    opacity: 0.5;
+}
+.overlay-6 img{
+    opacity: 0.5;
+}
 .team{
-    padding-left: 200px;
-    padding-right: 200px;
+    margin-top: 50px;
+    padding-left: 150px;
+    padding-right: 150px;
 }
 .team-head{
     text-align: center;
@@ -200,21 +301,26 @@
 .team-back{
     background-color: #222222;
     border-radius: 18px;
+    margin-right: 15px;
 
 }
 .team-img img{
-    height: 300px;
-    width: 300px;
-    /* padding-right: 20px; */
+    height: 280px;
+    width: 280px;
     border-radius: 18px;
+    
+}
+.team-row img{
+    margin-bottom: 10px;
 }
 .team-text{
     margin-top: -55px;
     margin-left: 5px;
+    color: #FFFFFF;
 
 }
 .footer-left{
-    margin-left: 200px;
+    margin-left: 150px;
 }
 .footer-left > p{
     margin-top: -30px;
@@ -232,7 +338,7 @@
       
 }
 .footer-detail-2{
-    margin-left: 100px;
+    margin-left: 70px;
 }
 .footer-detail-1{
     margin-right: 20px;
@@ -256,19 +362,20 @@
     text-align: center;
     padding-bottom: 5px;
 }
-.last > hr{
-    padding-left: 200px;
-    padding-right: 200px;
+hr{
+    padding-left: 180px;
+    padding-right: 180px;
 
 }
 .table-head{
     color: #FFFFFF;
-    margin-left: 380px;
+    margin-left: 300px;
 }
 table{
     border-collapse: collapse;
-    margin-left: 200px;
+    margin-left: 160px;
     margin-right: 200px;
+    margin-bottom: 10px;
     color: #FFFFFF;
 }
 td{
@@ -323,6 +430,7 @@ td{
     color: #FFFFFF;
     background-color: #E6533C;
     margin-top: 20px;
+    margin-bottom: 20px;
     border-radius: 42px;
     padding: 12px 55px 12px 55px;
 }
