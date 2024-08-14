@@ -37,13 +37,18 @@
     font-size: 16px;
     font-weight: lighter;
 }
-.nav-edit{
-    border-radius: 10px; 
-    border: 1px solid #FFFFFF;   
+.nav-edit{ 
+    margin-top: -10px; 
+    
+     
 }
 .nav-links{
-    margin: 0;
-    padding: 0;
+    border-radius: 20px; 
+    border: 1px solid #FFFFFF;
+    padding-left: 8px;
+    padding-right: 1px;
+    padding-bottom: 1px;
+    
 }
 .size{
     font-size: 1rem;
@@ -54,8 +59,8 @@
 }
 .orange{
     background-color: #E6533C;
-    border-radius: 10px;
-    padding: 6px 20px 6px 20px;
+    border-radius: 18px;
+    padding: 18px 20px 9px 20px;
 }
 .brand{
     color: #E6533C;
